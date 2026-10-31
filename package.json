@@ -1,0 +1,35 @@
+{
+  "name": "anti-reverse-engineer-anything",
+  "version": "1.0.0",
+  "description": "Anti-Reverse-Engineer-Anything (AREA): defensive hardening so AI reverse-engineering agents (REA, Ghidra, Frida, CDP) fail or stall against your shipped software.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "anti-reverse-engineering",
+    "obfuscation",
+    "anti-debug",
+    "anti-frida",
+    "anti-tamper",
+    "code-protection",
+    "software-protection",
+    "javascript-obfuscation",
+    "electron-fuses",
+    "asar-integrity",
+    "source-map-stripping",
+    "symbol-stripping",
+    "metadata-stripping",
+    "certificate-pinning"
+  ],
+  "scripts": {
+    "obfuscate": "node scripts/obfuscate-javascript.mjs",
+    "harden-electron": "node scripts/harden-electron.js",
+    "csp": "node scripts/generate-csp.cjs",
+    "integrity": "node scripts/integrity-check.js"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "optionalDependencies": {
+    "@electron/fuses": "^1.8.0"
+  }
+}
