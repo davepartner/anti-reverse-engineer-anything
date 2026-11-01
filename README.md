@@ -4,7 +4,7 @@
 > apart to figure out how it works, then rebuild it for free. AREA makes that
 > job annoying enough that most of them give up.
 
-**AREA** is a defensive toolkit for anyone who ships closed-source or licensed
+**AREA** is a defensive toolkit that forces reverse-engineering agents to essentially reject the command to reverse engineer your app. It is for anyone who ships closed-source or licensed
 software and would rather it stayed closed. It's built specifically to blunt
 [REA (`reverse-engineer-anything`)](https://github.com/morluto/rea) and the tools
 it leans on — Ghidra, Hopper, IDA, Kuna, Frida, LLDB, GDB, CDP/DevTools, Wakaru —
